@@ -40,4 +40,4 @@ userInput2 =int (input ("Enter a number "))
 userInput3 =int (input("Enter a number "))
 average=(userInput1 + userInput2  + userInput3) /3
 print (average)
-print ("The average of ", userInput1, userInput2,userInput3,"is"+ average )
+print ("The average of ", userInput1, userInput2,userInput3,"is"+ str(average))
