@@ -35,9 +35,14 @@
 
 # 3. Prompt the user for 3 numbers. Then print the 3 numbers along with their average after the 3rd number is entered. Refer to example below replacing NUMBER1, NUMBER2, NUMBER3, and THEAVERAGE with the actual values.
 
-userInput1 =int (input("Enter a number "))
-userInput2 =int (input ("Enter a number "))
-userInput3 =int (input("Enter a number "))
-average=(userInput1 + userInput2  + userInput3) /3
-print (average)
-print ("The average of ", userInput1, userInput2,userInput3,"is"+ str(average))
+# userInput1 =int (input("Enter a number "))
+# userInput2 =int (input ("Enter a number "))
+# userInput3 =int (input("Enter a number "))
+# average=(userInput1 + userInput2  + userInput3) /3
+# print (average)
+# print ("The average of ", userInput1, userInput2,userInput3,"is"+ str(average))
+
+# 4 . Use any loop to print all numbers between 0 and 100 that are divisible by 4.
+
+for item in range (0, 104, 4):
+  print(item)
